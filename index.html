@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link id="theme" rel="stylesheet" href=" ">
+</head>
+
+<body>
+    <header class="s1 header">
+        <div class="main-container">
+            <div class="header-wrapper">
+                <h1>Hey! I'm Ashish Chawda.</h1>
+                <div class="social-links">
+                    <a href="#" class="link-icon"><i class="fab fa-2x fa-linkedin"></i></a>
+                    <a href="#" class="link-icon"><i class="fab fa-2x fa-github"></i></a>
+                    <a href="#" class="link-icon"><i class="fab fa-2x fa-twitter"></i></a>
+                    <a href="#" class="link-icon"><i class="fab fa-2x fa-instagram"></i></a>
+                </div>
+            </div>
+            <div><button id="dark" class="dark">Dark Theme</button></div>
+        </div>
+    </header><main>
+        
+        <section class="s2">
+            <div class="main-container">
+                <h2>About Me</h2>
+                <div class="wrapper">
+                    
+                    <div class="content">
+                        <img class="about-img" src="images/Ashish_Chawda.jpeg" alt="">
+                        <p class="about-para">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus dicta minus excepturi, numquam a aspernatur sint tempora aliquid eius obcaecati deserunt. Et iure asperiores laboriosam animi architecto omnis illum aperiam ab molestiae ratione mollitia hic sapiente eum, dolores aliquam impedit temporibus doloribus, dolorem ut nam nobis. Fuga cupiditate illum harum!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="s1">
+            <div class="main-container">
+                <h2>
+                    Projects
+                </h2>
+                <div class="wrapper">
+                    <div class="content">
+                        <div class="card">
+                            <img class="card-img" src="images/project.jpg" alt="">
+                            <div class="card-content">
+                                <h3 class="card-head">Project 1</h3>
+                                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. speriores consectetur aperiam.</p>
+                                <a class="card-link" href="https://github.com/pixan198">See More</a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img" src="images/project.jpg" alt="">
+                            <div class="card-content">
+                                <h3 class="card-head">Project 1</h3>
+                                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. speriores consectetur aperiam.</p>
+                                <a class="card-link" href="https://github.com/pixan198">See More</a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img" src="images/project.jpg" alt="">
+                            <div class="card-content">
+                                <h3 class="card-head">Project 1</h3>
+                                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. speriores consectetur aperiam.</p>
+                                <a class="card-link" href="https://github.com/pixan198">See More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="s2">
+            <div class="main-container">
+                <h2>
+                    Education
+                </h2>
+                <div class="wrapper edu-wrapper">
+                    <h3 class="edu-head">Shri Shankaracharya Technical Campus, Bhilai</h3>
+                    <p class="edu-batch">2018 - 2022</p>
+                    <p class="edu-domain">Computer Science and Engineering</p>
+                    <ul class="edu-list">
+                        <li>Data Structures and Algorithm</li>
+                        <li>Database Management System</li>
+                    </ul>
+                </div>
+                <div class="wrapper edu-wrapper">
+                    <h3 class="edu-head">Shri Shankaracharya Technical Campus, Bhilai</h3>
+                    <p class="edu-batch">2018 - 2022</p>
+                    <p class="edu-domain">Computer Science and Engineering</p>
+                    <ul class="edu-list">
+                        <li>Data Structures and Algorithm</li>
+                        <li>Database Management System</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="s1">
+            <div class="main-container">
+                <h2>
+                    Contact
+                </h2>
+                <div class="wrapper form-wrapper">
+                    <form name="contact" method="POST" data-netlify-recaptcha="true" data-netlify="true" class="contact-form">
+                        <label for="name">
+                            <input type="text" class="input" name="name"  id="name" placeholder="Full Name">
+                        </label>
+                        <label for="email">
+                            <input type="text" class="input" name="email" id="email" placeholder="johndoe@xyz.com">
+                        </label>
+                        <label for="subject">
+                            <input type="text" class="input" name="subject" id="subject" placeholder="Want to Hire you!">
+                        </label>
+                            <textarea name="message" class="input" id="message" placeholder="Type your message here"></textarea>
+                            <div data-netlify-recaptcha="true"></div>
+                        <button class="input btn" type="submit">Submit</button>
+                    </form>
+                </div>
+                <p class="copyright">&copy; Ashish Chawda 2021</p>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>

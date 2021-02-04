@@ -1,0 +1,11 @@
+:root {
+    --mainColor: #272727;
+    --secondaryColor: rgb(59, 59, 59);
+    --lightColor1: #6e6e6e;
+    --lightColor2: #3c3d3d;
+
+    --borderColor: #c1c1c1;
+  
+    --mainText: #338eda;
+    --secondaryText: #ffffff;
+  }
